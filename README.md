@@ -1,1 +1,2 @@
 # Cryptology
+### All submissions were completed in latex. All parts of the packet where completed from a packet on cryptology in my high school cryptology class(included lessons and questions from a variety of sources)

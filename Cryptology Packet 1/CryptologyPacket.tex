@@ -1,0 +1,59 @@
+\documentclass[]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\usepackage{ragged2e}
+\usepackage{stackengine}
+\usepackage{dirtytalk}
+\usepackage{graphicx}
+\graphicspath{{./Images/}}
+
+
+\hbadness=99999
+
+\date{January 2023}
+\author{ID: 1747}
+\title{Cryptology Packet Pt1}
+
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+    \item Problem: Find the greatest common divisor for each of the following pairs of integers.
+    \\\\a. $15, 35$
+    \\ Solution: For $15$, these are the divisors, $1,3,5,15$ and for $35$, the divisors are $1,5,7,35$. The only common divisor between the two is $5$ so therefore, it is also the greatest common divisor.
+    \\\\b. $0,111$
+    \\ Solution: For $0$, all integers are common divisors of it and for $111$, the greatest divisor will be $111$. So, since all common divisors of $0$ are integers, the greatest common divisor will be $111$.
+    \\\\c. $-12,18$
+    \\ Solution: For $-12$, the divisors are $-12,-6,-4,-3,-2,-1,1,2,3,4,6,12$ and for $18$, the divisors are $1,2,3,6,9,18$. Therefore, $6$ is the greatest common divisor between $-12, 18$.
+    \\\\d. $99,100$
+    \\ Solution: For $99$, the divisors are $1,3,9,11,33,99$ and for $100$, the divisors are $1,2,4,5,10,20,25,50,100$. The only common divisor between $99$ and $100$ is $1$ so it is also therefore the greatest common divisor between the two.
+    \\\\e. $11,121$
+    \\ Solution: For $11$, the divisors are $1,11$ and for $121$, the divisors are $1,11,121$. Therefore, the greatest common divisor between the two is $11$.
+    \\\\f. $100, 102$
+    \\ Solution: For $100$, the divisors are $1,2,4,5,10,20,25,50,100$ and for $102$, the divisors are $1,2,3,6,17, 34,51,102$. Therefore, the greatest common divisor between $100,102$ is $2$.
+    \item Problem: Let $a$ be a positive integer. What is $\gcd(a, 2a)$?
+    \\\\ Solution: Since $a$ is a divisor of $2a$, the greatest common divisor of $a$ and $2a$ is $a$.
+    \item Problem: Let $a$ be a positive integer. What is $\gcd(a, a^2)$?
+    \\\\ Solution: Since $a$ is a divisor of $a^2$, the greatest common divisor of $a$ and $a^2$ will be $a$
+    \item Problem: Let $a$ be a positive integer. What is $\gcd(a, a+1)$?
+    \\\\ Solution: The greatest common divisor between $a$ and $a+1$ is $1$. This can be seen with a basic example. If $a=3$ then $a+1=4$ and the only common divisor is $1$. This holds true for all positive integers.
+    \item Problem: Let $a$ be a positive integer. What is $\gcd(a, a+2)$?
+    \\\\ Solution: If $a$ is even, the greatest common divisor between $a$ and $a+2$ will be $2$. This is because $a+2$ will also be even and all even numbers are divisible by $2$. If $a$ is odd, the greatest common divisor between $a$ and $a+2$ will be $1$. We can use an example to prove this. If $a=3$, $a+2=5$ and the greatest common divisor between them is $1$. This will hold true when $a$ is odd and a positive integer.
+    \item Problem: Find the greatest common divisor for each of the following sets of integers.
+    \\\\ a. $8,10,12$
+    \\ The divisors of $8$ are $1,2,4,8$, for $10$ they are $1,2,5,10$, and for $12$, they are $1,2,3,4,6,12$. Therefore, the common divisors between the three are $1,2$, and $2$ is the greatest common divisor.
+    \\\\ b. $6,15,21$
+    \\ The divisors of $6$ are $1,2,3,6$, for $15$, they are $1,3,5,15$, and for $21$, they are $1,3,7,21$. There are two common divisors, $1,3$, and $3$ is the greatest common divisor.
+    \\\\ c. $-7,28,-35$
+    \\ The divisors of $-7$ are $-7,-1,1,7$, for $28$, they are $1,2,4,7,14,28$, and for $-35$, they are $-35,-7,-5,-1,1,5,7,35$. Between the three, $7$ is the greatest common divisor.
+    \item Problem: Find a set of three integers that are mutually relatively prime, but any two of which are not relatively prime.
+    \\\\ Solution: A set of three integers would be $10,12,15$ as they are mutually relatively prime. Since the greatest common divisor between the numbers $10, 12, 15$ is $1$, the numbers are relatively prime to each other. However, combinations of these numbers in sets of two won't be relatively prime. Mutually relatively prime integers have a greatest common divisor of $1$. For example, $10,12$ will have a greatest common divisor of $2$ and isn't prime. $12,15$ will have a greatest common divisor of $3$ and isn't prime. $10,15$ will have a greatest common divisor of $5$ and isn't prime. Therefore, $10,12,15$ satisfies the conditions.
+    \item Problem: Find four integers that are mutually relatively prime such that any three of these integers are not mutually relatively prime.
+    \\\\Solution: A set of four integers would be $14,30,42,105$ as they are mutually relatively prime since their greatest common divisor would be $1$. However, combinations of any three of these integers wouldn't be mutually relatively prime. Mutually relatively prime integers have a greatest common divisor of $1$. For example, $30, 42, 105$ would have a greatest common divisor of $3$ and isn't prime. $42, 105, 14$ would have a greatest common divisor of $7$ and isn't prime. $14, 30, 42$ would have a greatest common divisor of $2$ and isn't prime. Therefore, $14,30,42,105$ satisfies the conditions.
+ 
+\end{enumerate}
+
+
+\end{document}
