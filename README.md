@@ -1,5 +1,5 @@
 # Cryptology
-### All submissions were completed in latex. All parts of the packet where completed from a packet on cryptology in my high school cryptology class(included lessons and questions from a variety of sources)
+### All submissions were completed in Latex. All parts of the packet were completed from a packet in my high school Cryptology class(included lessons and questions from a variety of sources)
 - Cryptology Packet 1: Greatest Common Divisor
 - Cryptology Packet 2: Modular Numbers (Canonical complete residue system, canonical residue congruence)
 - Cryptology Packet 3: Character Ciphers (Caesar Cipher, Affine Cipher)
